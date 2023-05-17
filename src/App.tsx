@@ -7,7 +7,7 @@ function App() {
   const [count, setCount] = useState(0);
   return (
     <div>
-      <div>
+      <div className="grid grid-cols-2">
         <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>

@@ -3,7 +3,9 @@
 exports[`<App /> > should render the App 1`] = `
 <div>
   <div>
-    <div>
+    <div
+      class="grid grid-cols-2"
+    >
       <a
         href="https://vitejs.dev"
         rel="noreferrer"
