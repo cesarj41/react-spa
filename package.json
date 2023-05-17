@@ -13,6 +13,7 @@
     "lint": "eslint src --ext ts,tsx --ignore-path .gitignore .",
     "lint:fix": "eslint src --fix --ext ts,tsx --ignore-path .gitignore .",
     "prettier:write": "prettier -u -w --ignore-path .gitignore \"*.{ts,tsx,css,html}\"",
+    "commitlint": "commitlint --edit",
     "lint-staged": "lint-staged",
     "prepare": "husky install"
   },
