@@ -1,10 +1,10 @@
 import { render, screen } from "@testing-library/react";
 
-import App from "./App";
+import { HomePage } from "./Home";
 
 describe("<App />", () => {
-  it("should render the App", () => {
-    const { container } = render(<App />);
+  it("should render the Home Page", () => {
+    const { container } = render(<HomePage />);
 
     expect(screen.getByText("Vite + React")).toBeInTheDocument();
     expect(container).toMatchSnapshot();
