@@ -6,10 +6,12 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "lint": "eslint src --ext ts,tsx --ignore-path .gitignore .",
+    "lint:fix": "eslint src --fix --ext ts,tsx --ignore-path .gitignore .",
     "preview": "vite preview",
     "test": "vitest",
-    "test:ui": "vitest --ui"
+    "test:ui": "vitest --ui",
+    "test:ci": "vitest run"
   },
   "dependencies": {
     "react": "^18.2.0",
