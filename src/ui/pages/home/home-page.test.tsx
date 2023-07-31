@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 
-import { HomePage } from "./Home";
+import { HomePage } from "./home-page";
 
 describe("<App />", () => {
   it("should render the Home Page", () => {
